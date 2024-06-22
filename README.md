@@ -16,5 +16,8 @@ Clone the project and set up a virtual python environment, by running the follow
     conda create -p venv python==3.11 -y
     conda activate venv/
 
+install requirements
+
+    pip install -r requirements.txt
 
 

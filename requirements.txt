@@ -39,5 +39,5 @@ ipython  # interactive notebook
 mss  # screenshots
 albumentations>=1.0.3
 pycocotools>=2.0
-
+ipykernel
 -e .

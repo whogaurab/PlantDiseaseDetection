@@ -98,3 +98,4 @@ jobs:
          docker system prune -f
 
          runs-on: self-hosted
+        

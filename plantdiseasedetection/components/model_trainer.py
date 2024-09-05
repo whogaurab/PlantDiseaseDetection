@@ -30,7 +30,7 @@ class ModelTrainer:
             with open("data.yaml", "r") as stream:
                 num_classes = str(yaml.safe_load(stream)["nc"])
 
-            model_config_file_name = self.model_trainer_config_file_name.weight_name.split(",")[0]
+            model_config_file_name = self.model_trainer_config.weight_name.split(",")[0]
    
             print(model_config_file_name)
 
